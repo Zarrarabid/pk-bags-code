@@ -1,0 +1,30 @@
+.animated{
+animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+.custom-btn{
+  text-decoration: none;
+  border-width: 1px;
+  padding: 12px;
+}
+.custom-btn:hover{
+  color: white;
+  background-color: #007bff;
+}
+#imagemain{
+  filter: drop-shadow(10px 5px 2px #4444dd);}
